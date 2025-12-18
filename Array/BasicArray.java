@@ -2,7 +2,7 @@
 
 //1> create Array using literals
 
-class TestArray1{
+class BasicArray{
 public static void main(String args[]){
 
 int[] arr ={10,20,30,40,50};
