@@ -3,7 +3,7 @@ public static void main(String args[]){
 int[] arr = {10,23,8,60,34,55,6,45};
 
 for(int i =0; i<arr.length;i++){
-	
+
 	for(int j=0;j<arr.length-1-i;j++){
 	if(arr[j]>arr[j+1]){
 		int temp=arr[j];
@@ -14,7 +14,7 @@ for(int i =0; i<arr.length;i++){
 }
  System.out.println("Sorted Array in Ascending order");
   for(int i =0; i<arr.length;i++){
-   System.out.println(" "+arr[i]); 
+   System.out.println(" "+arr[i]);
   }
  }
 }
