@@ -16,10 +16,10 @@ public class Palindrome{
 	}
 	
 	if(OriginalNum == rev){
-		System.out.println(OriginalNum +":is palindrome");
+		System.out.println(OriginalNum +"is palindrome");
 	}
 	else{
-	System.out.println(OriginalNum +":is not palindrome");
+	System.out.println(OriginalNum +"is not palindrome");
 	}
  }
 }
