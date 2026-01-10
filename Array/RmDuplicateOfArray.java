@@ -1,4 +1,4 @@
-public class RmDuplicateOfArray {
+ public class RmDuplicateOfArray {
     public static void main(String[] args) {
 
         int[] arr = {2, 34, 1, 2, 67, 34, 5};
