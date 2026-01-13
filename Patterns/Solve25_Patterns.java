@@ -67,6 +67,16 @@ public class Solve25_Patterns {
 		 System.out.println();
 	 }
 	 
+	 
+	  System.out.println("number increasing reverse Pyramid");
+	 for(int i= 1; i<=4;i++) {
+		 for(int j =1;j<=5-i; j++) {
+			 System.out.print(j +" ");
+		 }
+		 System.out.println();
+	 }
+	 
+	 
 	  
 	 System.out.println("number triangular");
 	 for(int i=1 ;i<=4 ;i++) {
