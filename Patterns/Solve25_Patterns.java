@@ -158,6 +158,25 @@ public class Solve25_Patterns {
 		 System.out.println();
 	 }
 	 
+	 
+	 
+	 System.out.println("hollow triangle");
+	 for(int i = 1;i<=5;i++) {
+		 for(int s=4;s>=i;s--) {
+			 System.out.print(" ");
+		 }
+		 for(int j=1;j<=2*i-1;j++) {
+			 if(i==5 || j==1 || j==2*i-1 ) {
+			 System.out.print("*");
+			 }
+			 else {
+				 System.out.print(" ");
+			 }
+		 }
+		 System.out.println();
+	 }
+	 
+	 
 	 	 System.out.println("Rhombus Pattern");
 	 for(int i=1; i<=5; i++) {
 		 for(int s =1; s<i; s++) {
