@@ -160,21 +160,54 @@ public class Solve25_Patterns {
 	 
 	 
 	 
-	 System.out.println("hollow triangle");
-	 for(int i = 1;i<=5;i++) {
-		 for(int s=4;s>=i;s--) {
+	  System.out.println("hollo diamond pattern");
+	 for(int i =1; i<=4;i++) {
+		 for(int j =3; j>=i;j--) {
 			 System.out.print(" ");
 		 }
-		 for(int j=1;j<=2*i-1;j++) {
-			 if(i==5 || j==1 || j==2*i-1 ) {
-			 System.out.print("*");
+		 for(int k = 1; k<=i;k++) {
+			 if(i==k || k==1) {
+			 System.out.print("* ");
 			 }
 			 else {
-				 System.out.print(" ");
+				 System.out.print("  ");
 			 }
 		 }
 		 System.out.println();
 	 }
+	 
+	 for(int i =1 ;i<=3; i++) {
+		 for(int s =1 ;s<=i;s++) {
+			 System.out.print(" ");
+		 }
+	   for(int l =3; l>=i ;l--) {
+		   if(i==l ||l==3) {
+		 System.out.print("* ");
+		   }
+		   else {
+			   System.out.print("  ");
+		   }
+	   }
+	  System.out.println();
+	 }
+
+
+	
+	 
+	 System.out.println("hollow triangle pattern");
+	 for(int i =1 ; i<=5;i++) {
+		 for(int j=4;j>=i;j--) {
+			 System.out.print(" ");
+	 }for(int k=1;k<=i;k++) {
+		 if(i==k || i==5 ||k==1) {
+		 System.out.print("* ");
+		 }
+		 else
+			 System.out.print("  ");
+	 }
+		 System.out.println();
+	 }
+	 
 	 
 	 
 	 	 System.out.println("Rhombus Pattern");
