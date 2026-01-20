@@ -112,6 +112,24 @@ public class Solve25_Patterns {
 	 }
   }
   
+  
+  System.out.println("reverse number triangle pattern");
+	 
+	 for(int i=1;i<=4;i++) {
+		 for(int s=1 ;s<=i;s++) {
+			 System.out.print(" ");
+		 }
+		 for(int j=i;j<=4;j++) {
+			 System.out.print(j +" ");
+			
+		 }
+		 System.out.println();
+			 
+	 }
+  
+  
+  
+  
    System.out.println("Triangle star pattern");
 	 
 	 for(int i=1; i<=5; i++) {
@@ -179,7 +197,7 @@ public class Solve25_Patterns {
 	 
 	
 	 
-	  System.out.println("hollo diamond pattern");
+	  System.out.println("hollow diamond pattern");
 	 for(int i =1; i<=4;i++) {
 		 for(int j =3; j>=i;j--) {
 			 System.out.print(" ");
