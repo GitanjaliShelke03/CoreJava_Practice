@@ -22,7 +22,8 @@ public class CollectionInterfaceMethods {
           System.out.println(al.contains(1));
 
      //add(Object obj)
-        al.add(5);
+         Object obj =2;
+        al.remove(obj); 
 
      //remove(Object obj)
         al.remove(2);   //remove index 2 i.e 3
