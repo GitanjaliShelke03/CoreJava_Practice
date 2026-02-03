@@ -55,7 +55,7 @@ public class Solve25_Patterns {
 		System.out.println();
 	 }
 	 
-	 System.out.println("Number increasing pyeamid");
+	 System.out.println("Number increasing pyramid");
 	 
 	 for(int i=1; i<=4;i++) {
 		 for(int s=3 ;s>=i ;s-- ) {
@@ -67,8 +67,7 @@ public class Solve25_Patterns {
 		 System.out.println();
 	 }
 	 
-	 
-	  System.out.println("number increasing reverse Pyramid");
+	 System.out.println("number increasing reverse Pyramid");
 	 for(int i= 1; i<=4;i++) {
 		 for(int j =1;j<=5-i; j++) {
 			 System.out.print(j +" ");
@@ -79,14 +78,13 @@ public class Solve25_Patterns {
 	 System.out.println("Number Changing Pyramid");
 	 int num = 1;
 	 for(int i =1; i<=4;i++) {
-		 for(int j =1
-				 ; j<=i;j++) {
+		 for(int j =1; j<=i;j++) {
 			 System.out.print(num +" ");
 			 num++;
 		 }
 		 System.out.println();
 	 }
-	 
+		 
 	  
 	 System.out.println("number triangular");
 	 for(int i=1 ;i<=4 ;i++) {
@@ -96,7 +94,8 @@ public class Solve25_Patterns {
 		System.out.println();
      }
 	 
-	System.out.println("Palindrome Triangular");
+	 
+	 System.out.println("Palindrome Triangular");
 	 
 	 for(int i = 1;i<=4;i++) {
 		 for(int s = 4;s>=i;s--) {
@@ -110,10 +109,9 @@ public class Solve25_Patterns {
 		}
 	 System.out.println();
 	 }
-  }
-  
-  
-  System.out.println("reverse number triangle pattern");
+	 
+	 
+	 System.out.println("reverse number triangle pattern");
 	 
 	 for(int i=1;i<=4;i++) {
 		 for(int s=1 ;s<=i;s++) {
@@ -126,23 +124,9 @@ public class Solve25_Patterns {
 		 System.out.println();
 			 
 	 }
-  
-  
-  
-  
-   System.out.println("Triangle star pattern");
 	 
-	 for(int i=1; i<=5; i++) {
-		 for(int s= 4; s>=i ; s--) {
-			 System.out.print(" ");
-		 }
-		 for(int j = 1; j<=i; j++) {
-			 System.out.print("* ");
-		 }
-		 System.out.println();
-	 }
-  
-   System.out.println("Diamond pattern");
+	 
+	 System.out.println("Diamond pattern");
 	 for(int i =1; i<=4;i++) {
 		 for(int j =3; j>=i;j--) {
 			 System.out.print(" ");
@@ -162,7 +146,21 @@ public class Solve25_Patterns {
 	  System.out.println();
 	 }
 	 
-	  System.out.println("Square Hollow Pattern");
+	 System.out.println("Triangle star pattern");
+	 
+	 for(int i=1; i<=5; i++) {
+		 for(int s= 4; s>=i ; s--) {
+			 System.out.print(" ");
+		 }
+		 for(int j = 1; j<=i; j++) {
+			 System.out.print("* ");
+		 }
+		 System.out.println();
+	 }
+	 
+	 
+	 
+	 System.out.println("Square Hollow Pattern");
 	 
 	 for(int i = 1; i <= 5; i++) {
 		 
@@ -176,28 +174,36 @@ public class Solve25_Patterns {
 		 System.out.println();
 	 }
 	 
-	 
-	 
-	  System.out.println("hollow triangle");
-	 for(int i = 1;i<=5;i++) {
-		 for(int s=4;s>=i;s--) {
+	 System.out.println("Rhombus Pattern");
+	 for(int i=1; i<=5; i++) {
+		 for(int s =1; s<i; s++) {
 			 System.out.print(" ");
 		 }
-		 for(int j=1;j<=2*i-1;j++) {
-			 if(i==5 || j==1 || j==2*i-1 ) {
-			 System.out.print("*");
-			 }
-			 else {
-				 System.out.print(" ");
-			 }
+		 for(int j =1; j<=4; j++) {
+			 System.out.print("* ");
 		 }
 		 System.out.println();
 	 }
 	 
 	 
-	
 	 
-	  System.out.println("hollow diamond pattern");
+	System.out.println("hollow triangle pattern");
+	 for(int i =1 ; i<=5;i++) {
+		 for(int j=4;j>=i;j--) {
+			 System.out.print(" ");
+	 }for(int k=1;k<=i;k++) {
+		 if(i==k || i==5 ||k==1) {
+		 System.out.print("* ");
+		 }
+		 else
+			 System.out.print("  ");
+	 }
+		 System.out.println();
+	 }
+	 
+	 
+	 
+	 System.out.println("hollow diamond pattern");
 	 for(int i =1; i<=4;i++) {
 		 for(int j =3; j>=i;j--) {
 			 System.out.print(" ");
@@ -229,33 +235,35 @@ public class Solve25_Patterns {
 	 }
 
 
-	
 	 
-	 System.out.println("hollow triangle pattern");
-	 for(int i =1 ; i<=5;i++) {
-		 for(int j=4;j>=i;j--) {
+	 
+	 System.out.println("hollow odd triangle");
+	 for(int i = 1;i<=5;i++) {
+		 for(int s=4;s>=i;s--) {
 			 System.out.print(" ");
-	 }for(int k=1;k<=i;k++) {
-		 if(i==k || i==5 ||k==1) {
-		 System.out.print("* ");
 		 }
-		 else
-			 System.out.print("  ");
-	 }
+		 for(int j=1;j<=2*i-1;j++) {
+			 if(i==5 || j==1 || j==2*i-1 ) {
+			 System.out.print("*");
+			 }
+			 else {
+				 System.out.print(" ");
+			 }
+		 }
 		 System.out.println();
 	 }
 	 
-	 
-	 
-	 	 System.out.println("Rhombus Pattern");
-	 for(int i=1; i<=5; i++) {
-		 for(int s =1; s<i; s++) {
-			 System.out.print(" ");
+	 System.out.println("Zero One Triangle");
+	 for(int i=1;i<=4;i++) {
+		 for(int j=1;j<=i;j++) {
+			 if((i+j)%2==0) {
+				 System.out.print("1");
+			 }else {
+				 System.out.print("0");
+			 }
 		 }
-		 for(int j =1; j<=4; j++) {
-			 System.out.print("* ");
-		 }
-		 System.out.println();
+			 System.out.println();
+	 }
 	 
   }
 }
