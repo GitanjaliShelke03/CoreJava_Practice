@@ -280,5 +280,23 @@ public class Solve25_Patterns {
 		 }
 		  System.out.println();
 	 }		  
+	 
+	 
+	  System.out.println("reverse hollow diamond pattern");
+	 for(int i =1; i<=4;i++) {
+		 for(int j =1; j<=i;j++) {
+			 System.out.print(" ");
+		 }
+		 for(int k = 4; k>=i;k--) {
+			 if(i==k || k==4 || i==1) {
+			 System.out.print("* ");
+			 }
+			 else {
+				 System.out.print("  ");
+			 }
+		 }
+		 System.out.println();
+	 }
+	 
   }
 }
