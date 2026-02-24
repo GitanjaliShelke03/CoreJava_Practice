@@ -298,5 +298,16 @@ public class Solve25_Patterns {
 		 System.out.println();
 	 }
 	 
+	 for(int i =1; i<=4; i++){
+		 for(int j=1; j<=4; j++){
+			 int a = j; int b =1;
+			 int c = a+b;
+			  System.out.println(b);
+			  
+			  b = c;
+		 }
+		  System.out.println();
+	 }
+	 
   }
 }
