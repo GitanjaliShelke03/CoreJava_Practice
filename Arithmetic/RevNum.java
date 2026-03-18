@@ -1,6 +1,6 @@
 public class RevNum{
 	public static void main(String[] args){
-		int a = 1234;
+		int a = 1230;
 		int rev =0;
 		
 		while(a>0){
