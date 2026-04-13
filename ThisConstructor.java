@@ -10,8 +10,19 @@ public class ThisConstructor {
         System.out.println(a);
 
     }
+	
+	//this keyword used to invoke current class method
+	
+	void display(){
+		System.out.println("hello");
+	}
+	
+	void show(){
+		this.display();
+	}
 
     public static void main(String[] args) {
         ThisConstructor t = new ThisConstructor(2);
+		t.show();
     }
 }
